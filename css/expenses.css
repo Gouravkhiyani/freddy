@@ -1,0 +1,158 @@
+.right #expenses .header {
+    background: white;
+    display: block;
+    border: 1px solid #e6e6e6;
+    padding: 15px 30px;
+    margin-left: 129px;
+  }
+  .right #expenses .header h4 {
+    display: inline-block;
+    color: #354052;
+  }
+  .right #expenses .header ul {
+    right: 0;
+    left: inherit;
+    max-width: 350px;
+  }
+  .right #expenses .header ul li {
+    display: inline-block;
+    padding-left: 20px;
+  }
+  .right #expenses .header ul li .btn-group i.fa-user-o, .right #expenses .header ul li .btn-group i.fa-bell-o {
+    color: #b3b3b3;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .right #expenses .header ul li .btn-group i.fa-user-o:nth-child(1):after, .right #expenses .header ul li .btn-group i.fa-bell-o:nth-child(1):after {
+    content: "3";
+    background: orange;
+    color: white;
+    font-size: small;
+    padding: 4px 7px;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    left: 10px;
+  }
+  .right #expenses .header ul li .btn-group i.fa-angle-down {
+    cursor: pointer;
+  }
+  .right #expenses .header ul li .btn-group .dropdown-menu {
+    padding: 0;
+  }
+  .right #expenses .header ul li .btn-group .dropdown-menu li {
+    padding-left: 0;
+    display: block;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .right #expenses .header ul li .btn-group .dropdown-menu li:nth-child(1) .alert-card i.fa {
+    color: #00b300;
+  }
+  .right #expenses .header ul li .btn-group .dropdown-menu li:nth-child(2) .alert-card i.fa {
+    color: #b300b3;
+  }
+  .right #expenses .header ul li .btn-group .dropdown-menu li:nth-child(3) .alert-card i.fa {
+    color: #354052;
+  }
+  .right #expenses .header ul li .btn-group .dropdown-menu li:last-child {
+    border-bottom: none;
+  }
+  .right #expenses .header ul li .btn-group .dropdown-menu li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .right #expenses .header ul li .btn-group .dropdown-menu li a:hover {
+    background: #e5e8ee;
+  }
+  .right #expenses .header ul li .btn-group .dropdown-menu li a .alert-card {
+    display: flex;
+  }
+  .right #expenses .header ul li .btn-group .dropdown-menu li a .alert-card img, .right #expenses .header ul li .btn-group .dropdown-menu li a .alert-card i.fa {
+    height: 40px;
+    margin-right: 15px;
+  }
+  .right #expenses .header ul li .btn-group .dropdown-menu li a .alert-card p {
+    color: #354052;
+    margin-bottom: 0;
+  }
+  .right #expenses .header ul li .btn-group .dropdown-menu li a .alert-card p small {
+    color: #7f8fa4;
+    width: 100%;
+    white-space: pre-line;
+  }
+  .right #expenses .header ul li .dropdown-avatar img {
+    height: 35px;
+  }
+  .right #expenses .header ul li .dropdown-avatar i.fa {
+    padding-left: 8px;
+  }
+  .right #expenses .content {
+    margin: 0 30px 15px 150px;
+  }
+  .right #expenses .content .row.invoice {
+    margin-top: 20px;
+  }
+  .right #expenses .content .row.invoice .summary-card {
+    background: white;
+    padding: 15px;
+  }
+  .right #expenses .content .row.invoice .summary-card h5 {
+    display: inline-block;
+    font-weight: bold;
+  }
+  .right #expenses .content .row.invoice .summary-card h5 small {
+    color: #7f8fa4;
+  }
+  .right #expenses .content .row.invoice .summary-card .dropdown i.fa {
+    margin-top: 15px;
+    color: #7f8fa4;
+    cursor: pointer;
+  }
+  .right #expenses .content .row.invoice .summary-card .row .col-sm-4:nth-child(2) .bg-cir {
+    background: red;
+    padding: 2px 3px 1px 4px;
+  }
+  .right #expenses .content .row.invoice .summary-card .row .col-sm-4 h3 {
+    position: relative;
+  }
+  .right #expenses .content .row.invoice .summary-card .row .col-sm-4 h3 small {
+    font-size: x-small;
+    font-weight: bold;
+  }
+  .right #expenses .content .row.invoice .summary-card .row .col-sm-4 h3 .bg-cir {
+    position: absolute;
+    bottom: 35px;
+    font-size: x-small;
+    background: green;
+    color: white;
+    padding: 0 3px 3px 4px;
+    border-radius: 10px;
+  }
+  .right #expenses .content .row.invoice .summary-card .cust-img {
+    height: 135px;
+    width: 100%;
+    object-fit: contain;
+  }
+  .right #expenses .content .table-invoice .table-in-card {
+    background: white;
+  }
+  .right #expenses .content .table-invoice .table-in-card h3 {
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+  }
+  .right #expenses .content .table-invoice .table-in-card .table thead tr th, .right #expenses .content .table-invoice .table-in-card .table tbody tr td {
+    vertical-align: middle;
+    font-size: smaller;
+  }
+  .right #expenses .content .table-invoice .table-in-card .table thead tr th {
+    color: #999999;
+    border-bottom: 0;
+  }
+  .right #expenses .content .table-invoice .table-in-card .table tbody tr td {
+    padding: 20px 10px;
+  }
+  .right #expenses .content .table-invoice .table-in-card .table tbody tr td:last-child a {
+    color: #999999;
+  }
+

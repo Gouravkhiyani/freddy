@@ -1,0 +1,153 @@
+.contacts{
+    background: white;
+    margin-top: 20px;
+    /* padding: 10rem 10rem 3rem; */
+    box-shadow: 0 0 10px #cad0d9;
+    min-height: 120px;
+}
+
+.right #contacts .header {
+    background: white;
+    display: block;
+    border: 1px solid #e6e6e6;
+    padding: 15px 30px;
+    margin-left: 129px;
+  }
+  .right #contacts .header h4 {
+    display: inline-block;
+    color: #354052;
+  }
+  .right #contacts .header ul {
+    right: 0;
+    left: inherit;
+    max-width: 350px;
+  }
+  .right #contacts .header ul li {
+    display: inline-block;
+    padding-left: 20px;
+  }
+  .right #contacts .header ul li .btn-group i.fa-user-o, .right #contacts .header ul li .btn-group i.fa-bell-o {
+    color: #b3b3b3;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .right #contacts .header ul li .btn-group i.fa-user-o:nth-child(1):after, .right #contacts .header ul li .btn-group i.fa-bell-o:nth-child(1):after {
+    content: "3";
+    background: orange;
+    color: white;
+    font-size: small;
+    padding: 4px 7px;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    left: 10px;
+  }
+  .right #contacts .header ul li .btn-group i.fa-angle-down {
+    cursor: pointer;
+  }
+  .right #contacts .header ul li .btn-group .dropdown-menu {
+    padding: 0;
+  }
+  .right #contacts .header ul li .btn-group .dropdown-menu li {
+    padding-left: 0;
+    display: block;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .right #contacts .header ul li .btn-group .dropdown-menu li:nth-child(1) .alert-card i.fa {
+    color: #00b300;
+  }
+  .right #contacts .header ul li .btn-group .dropdown-menu li:nth-child(2) .alert-card i.fa {
+    color: #b300b3;
+  }
+  .right #contacts .header ul li .btn-group .dropdown-menu li:nth-child(3) .alert-card i.fa {
+    color: #354052;
+  }
+  .right #contacts .header ul li .btn-group .dropdown-menu li:last-child {
+    border-bottom: none;
+  }
+  .right #contacts .header ul li .btn-group .dropdown-menu li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .right #contacts .header ul li .btn-group .dropdown-menu li a:hover {
+    background: #e5e8ee;
+  }
+  .right #contacts .header ul li .btn-group .dropdown-menu li a .alert-card {
+    display: flex;
+  }
+  .right #contacts .header ul li .btn-group .dropdown-menu li a .alert-card img, .right #contacts .header ul li .btn-group .dropdown-menu li a .alert-card i.fa {
+    height: 40px;
+    margin-right: 15px;
+  }
+  .right #contacts .header ul li .btn-group .dropdown-menu li a .alert-card p {
+    color: #354052;
+    margin-bottom: 0;
+  }
+  .right #contacts .header ul li .btn-group .dropdown-menu li a .alert-card p small {
+    color: #7f8fa4;
+    width: 100%;
+    white-space: pre-line;
+  }
+  .right #contacts .header ul li .dropdown-avatar img {
+    height: 35px;
+  }
+  .right #contacts .header ul li .dropdown-avatar i.fa {
+    padding-left: 8px;
+  }
+  .right #contacts .content {
+    margin: 0 30px 15px 150px;
+  }
+  .right #contacts .content .row {
+    margin-top: 20px;
+  }
+  .right #contacts .content .row .candid-card .card-4 {
+    background: white;
+    padding: 15px;
+  }
+  .right #contacts .content .row .candid-card .card-4 .main-img {
+    width: 100%;
+  }
+  .right #contacts .content .row .candid-card .card-4 .row {
+    margin-top: 10px;
+  }
+  .right #contacts .content .row .candid-card .card-4 .row .col-sm-10 img {
+    margin-top: -40px;
+    margin-right: 15px;
+  }
+  .right #contacts .content .row .candid-card .card-4 .row .col-sm-10 h5 {
+    font-weight: bold;
+  }
+  .right #contacts .content .row .candid-card .card-4 .row .col-sm-10 h5 small {
+    font-size: small;
+    line-height: 30px;
+  }
+  .right #contacts .content .row .candid-card .card-4 .row .col-sm-2 {
+    margin-top: 10px;
+  }
+  .right #contacts .content .row .candid-card .card-4 .row .col-sm-2 a {
+    color: #bfbfbf;
+  }
+
+.contacts-form-row input[type="text"],input[type="number"],input[type="email"] {
+  border: 1px solid var(--border-secondary-color);
+  border-radius: 5px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+.contacts-form-row{
+    margin-right: 10px;
+}
+
+
+/* CONTACTS CONTAINER */
+
+.contacts-container{
+    background: white;
+    margin-top: 20px;
+    /* padding: 10rem 10rem 3rem; */
+    box-shadow: 0 0 10px #cad0d9;
+    min-height: 600px;
+}

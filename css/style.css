@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300&display=swap");
+/* Color Variables */
+
+/* Styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  background: #e3e5e6;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+
+.text-red {
+  color: red !important;
+}
+
+.text-green {
+  color: green !important;
+}
+
+.text-orange {
+  color: orange !important;
+}
+
+.text-blue {
+  color: blue !important;
+}
+
+/* buttons */
+.btn-red {
+  background: red;
+  color: white;
+  font-size: xx-small;
+}
+.btn-red:hover, .btn-red:focus {
+  background: #d60000;
+  color: white;
+}
+
+.btn-grayblue {
+  background: #acb6c4;
+  color: white;
+  font-size: xx-small;
+}
+.btn-grayblue:hover, .btn-grayblue:focus {
+  background: #97a4b5;
+  color: white;
+}
+
+/* Custom scrollbar */
+.main ::-webkit-scrollbar {
+  width: 5px;
+}
+.main ::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+.main ::-webkit-scrollbar-thumb {
+  background: #5d7090;
+  border-radius: 10px;
+}
+.main ::-webkit-scrollbar-thumb:hover {
+  background: #495871;
+}
+
+
+/* Left Menu */
+.left {
+    width: 200px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #354052;
+    position: fixed;
+    transition: all 0.5s;
+  }
+  /* .left:hover {
+    width: 200px;
+  } */
+  .left:hover ul li.menu-heading {
+    opacity: 1;
+  }
+  .left ul {
+    padding-left: 0;
+  }
+  .left ul li {
+    list-style-type: none;
+  }
+  .left ul li.active a {
+    background: #00b300;
+    color: white;
+  }
+  .left ul li.active a:hover {
+    background: #009a00;
+  }
+  .left ul li a {
+    display: flex;
+    align-items: center;
+    background: #354052;
+    color: white;
+    padding: 15px 10px;
+    font-size: 13px;
+    width: 200px;
+    border-bottom: 1px solid #2b3443;
+  }
+  .left ul li a:hover {
+    background: #2b3443;
+    text-decoration: none;
+  }
+  .left ul li a:hover i.fa {
+    color: #00b300;
+  }
+  .left ul li a:focus {
+    text-decoration: none;
+  }
+  .left ul li a i.fa {
+    width: 50px;
+    text-align: center;
+    padding-right: 15px;
+    transition: all 1s;
+  }
+  .left ul .menu-heading {
+    opacity: 0;
+    padding: 10px 5px 10px 10px;
+    color: #b3b300;
+    font-size: smaller;
+    border-bottom: 1px solid #2b3443;
+    transition: all 0.5s;
+  }
+
+ 
